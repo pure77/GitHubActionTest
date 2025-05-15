@@ -20,7 +20,7 @@ public class EchoController {
         Map<String, Object> response = new HashMap<>();
         response.put("status", "success");
         response.put("method", "GET");
-        response.put("received_message", message == null ? "no message provided" : message);
+        response.put("received_message2", message == null ? "no message provided" : message);
         return response;
     }
 
